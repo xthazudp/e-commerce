@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 // import routes
-const userRoutes = require('./routes/users');
+const userRoutes = require('./routes/userRoute');
 
 // app
 const app = express();
